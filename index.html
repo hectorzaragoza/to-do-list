@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- BOOTSTRAP -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <!-- JAVASCRIPT -->
+    <script defer src="assets/js/taskmanager.js"></script>
+    <script defer src="assets/js/index.js"></script>
+    <title>Task Manager</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- HEADER -->
+        <h2 class="titleheader" style="margin:5px">Task Manager</h2>
+        <!-- FORM -->
+        <div class="formdiv">
+            <form class="center-form justify-content-center col-md-6">
+                <div class="form-group">
+                    <label for="task">Task Name:</label>
+                    <input type="text" id="task" class="form-control" placeholder="Add a title... ">
+                </div>
+                <div class="form-group">
+                    <label for="description">Task Description:</label>
+                    <input type="text" id="description" class="form-control" placeholder="Add a description...">
+                </div>
+                <div class="form-group">
+                    <label for="user">Assigned To:</label>
+                    <input type="text" id="user" class="form-control" placeholder="Assign to...">
+                </div>
+                <div class="form-group">
+                    <label for="duedate">Due Date:</label>
+                    <input type="date" id="duedate" class="form-control" placeholder="Due date">
+                </div>
+                <!-- BUTTON -->
+                <div class="row">
+                    <div class="btn btn-block">
+                        <button type="button" id="submitbutton" class="btn btn-primary">Add Task</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- RENDER -->
+    <div class="tasks container">
+        <ul class="list-group list-group-flush" id="task-list">
+        </ul>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+        &#10096;/ Coded By: Hector, Perom, & Yannick &#10097;
+    </footer>
+</body>
+
+</html>
