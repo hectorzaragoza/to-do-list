@@ -1,4 +1,4 @@
-Final Project: Task Manager <br>
+Final Project: Todo Application using Local Storage for Persistent Data <br>
 Coded By: Hector, Perom, & Yannick <br>
 JavaScript, CSS, HTML, Boostrap
 
